@@ -1,6 +1,6 @@
 public class King extends ChessPiece {
     public King(String col) {
-        super(col);
+        super(col, EFigureType.eftKing);
     }
     @Override
     public boolean canMoveToPosition(ChessBoard chessBoard, int line, int column, int toLine, int toColumn) {
